@@ -1,0 +1,25 @@
+{
+  "name": "online-trivia-game",
+  "version": "1.0.0",
+  "description": "Nicolas El-Khoury\r #101105159",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAEK2K/online-trivia-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NAEK2K/online-trivia-game/issues"
+  },
+  "homepage": "https://github.com/NAEK2K/online-trivia-game#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  }
+}

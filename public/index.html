@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body id="body">
+        <h1>Coolio Trivio</h1>
+        <h2>The MULTIPLE ROOM Trivia Site</h2>
+        <div id="register">
+            <p>Registration</p>
+            <p>Username: <input type="text" name="username" id="username"></p>
+            <p>Lobby ID: <input type="text" name="lobby" id="lobby"></p>
+            <button onclick="validate(this)" value="new">New Game</button>
+            <button onclick="validate(this)" value="join">Join Game</button>
+        </div>
+        <h3>Lobby Info</h3>
+        <div id="lobby-info">
+
+        </div>
+        <h3>Users</h3>
+        <div id="users">
+
+        </div>
+        <div id="questions">
+
+        </div>
+        <div id="answer-status">
+            
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    color: #212121;
+    background-color: #fafafa;
+}
+
+#register, #lobby-info, #questions, #users, #answer-status {
+    background-color: #212121;
+    color: #fafafa;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+}
